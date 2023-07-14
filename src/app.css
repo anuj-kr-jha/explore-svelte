@@ -2,100 +2,100 @@
 
 /* Basic reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-  /* 1rem equals to 10px */
-  /* font-size: 62.5%; */
-  font-size: 100%;
+	/* 1rem equals to 10px */
+	/* font-size: 62.5%; */
+	font-size: 100%;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f4f4f4;
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+	background-color: #f4f4f4;
 }
 
 /* Header */
 .header {
-  background: #50b3a2;
-  color: #ffffff;
-  padding: 1rem 0;
+	background: #50b3a2;
+	color: #ffffff;
+	padding: 1rem 0;
 }
 
 .header h1 {
-  margin: 0;
-  padding: 0 2rem;
+	margin: 0;
+	padding: 0 2rem;
 }
 
 /* Main content */
 .main {
-  margin: 2rem;
-  padding: 2rem;
-  background: #fff;
+	margin: 2rem;
+	padding: 2rem;
+	background: #fff;
 }
 
 /* Grid system */
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
 }
 
 .grid-item {
-  background: #ddd;
-  padding: 2rem;
+	background: #ddd;
+	padding: 2rem;
 }
 
 /* Buttons */
 .button {
-  background: #50b3a2;
-  color: #fff;
-  border: none;
-  padding: 1rem 2rem;
-  cursor: pointer;
-  display: inline-block;
-  margin: 1rem 0;
+	background: #50b3a2;
+	color: #fff;
+	border: none;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1rem 0;
 }
 
 .button:hover {
-  background: #4a8d7e;
+	background: #4a8d7e;
 }
 
 /* Forms */
 form {
-  margin: 2rem 0;
+	margin: 2rem 0;
 }
 
 form input,
 form textarea {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  width: 100%;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	width: 100%;
 }
 
 /* Links */
 a {
-  color: #50b3a2;
-  text-decoration: none;
+	color: #50b3a2;
+	text-decoration: none;
 }
 
 a:hover {
-  color: #4a8d7e;
+	color: #4a8d7e;
 }
 
 /* Footer */
 .footer {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
